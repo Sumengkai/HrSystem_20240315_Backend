@@ -38,6 +38,7 @@ class NewHrSystemApplicationTests {
 
 	}
 
+	@Test
 	public void createEmployeeInfoTest() {// test新增功能
 
 		EmployeeInfoReq employeeInfo = new EmployeeInfoReq("A001", "josh", "E123465987", "d1234567@gmail.com", "資訊", 0,
